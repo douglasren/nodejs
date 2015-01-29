@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  h1= title
+  p #{title}
+  body
+      td(width="375", height="88", rowspan="2", valign="bottom", background="images/tu.jpg")
+      // 设置单元格背景为图片背景（当然要放一个好看的了）
+      object(classid="clsid27CDB6E-AE6D-11cf-96B8-444553540000", codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0", width="100", height="100", align="center")
+        param(name="movie", value="../images/wedding.swf")
+        param(name="quality", value="high")
+        param(name="wmode", value="transparent")
+        // 这里代码可使Flash背景透明
+        embed(src="../images/wedding.swf", width="100%", height="100%", align="center", quality="high", pluginspage="http://www.macromedia.com/go/getflashplayer", ;;;="", type="application/x-shockwave-flash")
+

@@ -1,0 +1,69 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'D:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'mongoose',
+1 verbose cli   '-d' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose node symlink D:\Program Files\nodejs\\node.exe
+5 warn package.json http@0.0.0 http is also the name of a node core module.
+6 warn package.json http@0.0.0 No description
+7 warn package.json http@0.0.0 No repository field.
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'mongoose', null ]
+10 verbose cache add name=undefined spec="mongoose" args=["mongoose",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'mongoose',
+11 verbose parsed url   path: 'mongoose',
+11 verbose parsed url   href: 'mongoose' }
+12 silly lockFile f25dbdd3-mongoose mongoose
+13 verbose lock mongoose C:\Users\Administrator\AppData\Roaming\npm-cache\f25dbdd3-mongoose.lock
+14 silly lockFile f25dbdd3-mongoose mongoose
+15 silly lockFile f25dbdd3-mongoose mongoose
+16 verbose addNamed [ 'mongoose', '' ]
+17 verbose addNamed [ null, '*' ]
+18 silly lockFile 3bb0fc31-mongoose mongoose@
+19 verbose lock mongoose@ C:\Users\Administrator\AppData\Roaming\npm-cache\3bb0fc31-mongoose.lock
+20 silly addNameRange { name: 'mongoose', range: '*', hasData: false }
+21 verbose request where is /mongoose
+22 verbose request registry https://registry.npmjs.org/
+23 verbose request id 9492f56c3dc852e5
+24 verbose url raw /mongoose
+25 verbose url resolving [ 'https://registry.npmjs.org/', './mongoose' ]
+26 verbose url resolved https://registry.npmjs.org/mongoose
+27 verbose request where is https://registry.npmjs.org/mongoose
+28 info trying registry request attempt 1 at 10:48:02
+29 http GET https://registry.npmjs.org/mongoose
+30 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+31 info trying registry request attempt 2 at 10:48:33
+32 http GET https://registry.npmjs.org/mongoose
+33 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+34 info trying registry request attempt 3 at 10:49:54
+35 http GET https://registry.npmjs.org/mongoose
+36 silly lockFile 3bb0fc31-mongoose mongoose@
+37 silly lockFile 3bb0fc31-mongoose mongoose@
+38 error network connect ETIMEDOUT
+38 error network This is most likely not a problem with npm itself
+38 error network and is related to network connectivity.
+38 error network In most cases you are behind a proxy or have bad network settings.
+38 error network
+38 error network If you are behind a proxy, please make sure that the
+38 error network 'proxy' config is set properly.  See: 'npm help config'
+39 error System Windows_NT 6.2.9200
+40 error command "D:\\Program Files\\nodejs\\\\node.exe" "D:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "mongoose" "-d"
+41 error cwd E:\projection\marry\marry
+42 error node -v v0.10.35
+43 error npm -v 1.4.28
+44 error syscall connect
+45 error code ETIMEDOUT
+46 error errno ETIMEDOUT
+47 verbose exit [ 1, true ]
